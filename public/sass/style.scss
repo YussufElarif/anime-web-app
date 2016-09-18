@@ -58,6 +58,40 @@ main {
     margin:auto;
   }
 }
+div .sidebar{
+  position: relative;
+  float: right;
+}
+aside{
+  position: absolute;
+  width: 200px;
+  height: 100%;
+  float: right;
+  right: 0;
+  top: ($sliderHeight + $headerHeight);
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  background: $ranimeDarkBlue
+}
+aside ul{
+  margin: 0px;
+  padding: 0px;
+}
+aside ul li{
+  padding: 10px;
+  width: 180px;
+  border-bottom: 2px solid $ranimeLightBlue;
+  display: block;
+}
+aside ul li a{
+  color:$ranimeWhite;
+  text-decoration: none;
+}
+aside ul li a:hover{
+  text-decoration: none;
+  color: $ranimeLightBlue;
+}
 
 // .carousel-inner > .item > img,
 // .carousel-inner > .item > a > img {

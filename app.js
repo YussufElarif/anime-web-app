@@ -31,6 +31,6 @@ app.engine('html', require('ejs').renderFile);
 
 
 var standardServer = http.createServer(app);
-standardServer.listen(process.env.PORT || 5000,function (){
+standardServer.listen(process.env.PORT || 8000,function (){
     console.log('HTTP Server on');
 });
